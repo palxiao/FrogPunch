@@ -1,9 +1,9 @@
 /*
  * @Author: ShawnPhang
- * @Date: 2021-08-21 21:49:05
- * @Description: "node script/set config.json && xxxxxx && sh script/reverse.sh"
+ * @Date: 2021-08-22 23:21:48
+ * @Description: 设置脚本
  * @LastEditors: ShawnPhang
- * @LastEditTime: 2021-08-22 23:17:41
+ * @LastEditTime: 2021-08-22 23:25:13
  * @site: book.palxp.com / blog.palxp.com
  */
 

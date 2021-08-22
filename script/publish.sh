@@ -1,6 +1,4 @@
 #!/bin/bash
-# "publish": "sh script/publish.sh",
-# "publish-fast": "git add . && git commit -m 'build: auto publish' && sh script/publish.sh"
 # project_path=$(cd `dirname $0`; pwd)
 project_path=$PWD
 project_name="${project_path##*/}"
