@@ -68,10 +68,10 @@ steps:
       port: 22
       script:
         - echo hello linux.
-        - docker exec pm2 /bin/bash -c 'pm2 delete FrogPunch'
-        - docker exec pm2 /bin/bash -c 'pm2 serve --spa /home/web/FrogPunch 8001 --name FrogPunch'
-        # - docker exec pm2 /bin/bash -c 'pm2 start /home/service/FrogPunch-BackEnd.js'
-        - docker exec pm2 /bin/bash -c 'pm2 flush'
+        - docker exec stack /bin/bash -c 'pm2 delete FrogPunch'
+        - docker exec stack /bin/bash -c 'pm2 serve --spa /home/web/FrogPunch 8001 --name FrogPunch'
+        # - docker exec stack /bin/bash -c 'pm2 start /home/service/FrogPunch-BackEnd.js'
+        - docker exec stack /bin/bash -c 'pm2 flush'
 
 trigger:
   branch:
